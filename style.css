@@ -1,0 +1,93 @@
+/* Colors and fonts */
+
+body {
+	background: #F7F9FC;
+	color: #06283D;
+	font-family: 'PT Serif', serif;
+	font-size: 17px;
+	font-weight: lighter;
+}
+
+h1, h2, h3 {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+	color: #367E18;
+	font-size: 32px;
+	font-weight: 900;
+}
+
+h2 {
+	font-family: 'Ubuntu', sans-serif;
+	color: #181818;
+	font-size: 20px;
+	font-weight: lighter;
+	font-weight: 500;
+}
+
+a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #367E18;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+a:hover {
+	color: black;
+}
+
+/* Custom design with class */
+
+.content {
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+.block-design {
+	background-color: #EEEEEE;
+	padding: 50px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.button-green {
+	background-color: #367E18;
+	color: #181818;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.button-green:hover {
+	background-color: black;
+	color: #367E18;
+}
+
+.social-list {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.social-list li {
+	display: inline;
+	padding: 10px;
+}
+
+.social-list i {
+	font-size: 30px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
